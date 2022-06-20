@@ -67,7 +67,6 @@ struct WeatherManager {
                 return weather
                 // print(weather.conditionName)
                 // print(weather.temperatureString)
-                
             } catch {
                 delegate?.didFailWithError(error: error)
                 return nil
