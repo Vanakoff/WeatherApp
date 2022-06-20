@@ -31,6 +31,9 @@
                                         <buttonConfiguration key="configuration" style="plain">
                                             <backgroundConfiguration key="background" image="paperplane.circle.fill" catalog="system"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="locationButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="YJP-Ug-XgA"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O02-to-ez0">
                                         <rect key="frame" x="60" y="0.0" width="215" height="50"/>
